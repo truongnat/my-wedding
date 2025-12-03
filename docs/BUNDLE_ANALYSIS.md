@@ -56,7 +56,10 @@
 | turbopack-8aa269add930dd85.js | 9.68 | Turbopack runtime |
 | (14 smaller chunks) | 71.45 | Various smaller chunks |
 
-**Total JavaScript:** ~1,430 KB across 25 chunks
+**Total JavaScript:** 1,382.97 KB across 24 chunks  
+**Total CSS:** 9.95 KB (1 chunk)  
+**Fonts:** 11 optimized woff2 files (next/font optimization)  
+**Combined Total:** 1,392.92 KB (JS + CSS)
 
 ### First Load JS Analysis
 

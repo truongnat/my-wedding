@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter, Playfair_Display } from 'next/font/google';
-import '@/src/styles/globals.css';
+import '@/styles/index.css';
+import '@/styles/globals.css';
 import { Providers } from './providers';
 
 // Configure Google Fonts
