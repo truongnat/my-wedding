@@ -1,0 +1,57 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "lib/**/*.ts",
+    "lib/**/*.tsx",
+    "components/**/*.ts",
+    "components/**/*.tsx",
+    "types/**/*.ts",
+    "src/components/ui/**/*.tsx",
+    "src/styles/**/*.css",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/main.tsx",
+    "src/App.tsx",
+    "src/components/AboutSection.tsx",
+    "src/components/CountdownTimer.tsx",
+    "src/components/Footer.tsx",
+    "src/components/Gallery.tsx",
+    "src/components/GuestMessages.tsx",
+    "src/components/HeroSection.tsx",
+    "src/components/MusicPlayer.tsx",
+    "src/components/Navigation.tsx",
+    "src/components/RSVPSection.tsx",
+    "src/components/Timeline.tsx",
+    "src/components/VenueMap.tsx",
+    "src/components/VideoSection.tsx",
+    "src/components/WeddingDetails.tsx"
+  ]
+}
